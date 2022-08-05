@@ -19,23 +19,22 @@ export const  Content = styled.div`
   max-width: 350px;
   gap: 15px;
   border-radius: 5px;
-  box-shadow: 0 1px 2px #0003;
-  background-color:  #ffffff6c;
+
 `;
 
 export const Label = styled.label`
-    font-size: 18px;
+    font-size: 36px;
     font-weight: 600;
-    color: #fffdfd;
+    color: #3182ce;
 `;
 
 export const LabelSignin = styled.label`
-    font-size: 16px;
-    color: #ffffff;
+    font-size: 26px;
+    color: #3182ce;
 `;
 
 export const LabelError = styled.label`
-  font-size: 14px;
+  font-size: 25px;
   color: red;
 `;
 
@@ -44,7 +43,7 @@ export const Strong = styled.strong`
 
     a {
         text-decoration: none;
-        color: #ffffff;
+        color: #3182ce;
     }
 `;
 

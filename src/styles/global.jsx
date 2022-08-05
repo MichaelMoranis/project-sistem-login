@@ -9,7 +9,7 @@ import { createGlobalStyle } from "styled-components";
     body {
         width: 100vw;
         height: 100vh;
-        background-color: #292f38;
+        background-color:#454d6b;
         font-family: Arial, Helvetica, sans-serif;
     }
 `;

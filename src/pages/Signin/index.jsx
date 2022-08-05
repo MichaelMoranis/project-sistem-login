@@ -4,6 +4,7 @@ import Input from "../../components/Input";
 import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/userAuth";
 import * as C from "./styles";
+import Theme from "../../theme";
 
 
 const Signin = () => {
@@ -31,8 +32,9 @@ const Signin = () => {
 
     return (
       <C.Container>
-        <C.Label>Sistema de Login</C.Label>
         <C.Content>
+          <Theme />   
+        <C.Label>Sistema de Login</C.Label>
           <Input
           type="email"
           placeholder="Digite seu E-mail"
